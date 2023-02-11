@@ -8,22 +8,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/app.css">
+  <link rel="stylesheet" href="styles/style.css">
   <title>Layout-designer-project-58-maxdzyubak</title>
 </head>
 
 <body>
 
-  <header class="bg-before">
+  <header class="bg-before d-flex jc-center">
     <div class="header-container">
-      <h1>
-        <span class="color-primary">Когнитивные
-          <br>искажения<br>
-        </span>
-        в программировании
-      </h1>
-      <img src="images/main.png" alt="Логотип Hexlet" class="header-img">
-      <div class="row">
+        <h1 class="mb-185px">
+          Когнитивные
+            <br>искажения<br>
+          <span class="color-dark">
+            в программировании
+          </span>
+        </h1>
+        <img src="images/main.png" alt="Логотип Hexlet" class="header-img">
+     <div class="row">
         <div class="column">
           <p>Мы, разработчики, часто сталкиваемся с проблемами,
             которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем
@@ -37,16 +38,22 @@
             Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности,
             багам и бесконечному разочарованию.
           </p>
-          <br>
-          <p class="mb-40">
+          <p class="pb-35px">
             Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл,
             а остатки нейтрализовать.
           </p>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="column"></div>
+        <div class="column">
           <a href="#navigation" class="btn btn-header">
             Подробнee
           </a>
         </div>
       </div>
+
     </div>
 
   </header>
@@ -54,36 +61,38 @@
     <section>
       <div class="container ta-center">
         <h2 class="mb-30">
-          Что же это такое,
+          <span class="color-dark">
+            Что же это такое, 
+          </span>
           <br>
           <span class="color-primary">когнитивные искажения?
           </span>
         </h2>
-        <p class="mb-30">Что такое когнитивные искажения. Petrovna Channel</p>
-        <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0"
-          allowfullscreen>
+        <p data-mb-30px-mt-0>Что такое когнитивные искажения. Petrovna Channel
+        </p>
+        <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" style="border: 0" allowfullscreen>
         </iframe>
       </div>
     </section>
 
-    <section id="navigation" class="bg-color-primary-dark">
+    <div id="navigation" class="bg-color-primary-dark">
       <nav class="container pt-200px">
-        <ul>
-          <div class="row row-gap20px flex-wrap">
-            <li class="nav-item">
+        <ul class="row row-gap20px flex-wrap">
+            <li class="nav-item list-st-none">
               <h2 class="fz-52px">
-                <span class="color-primary">
-                  5 когнитивных искажений
-                </span>
+                5 когнитивных искажений
+                <br>
+                <span class="color-white">
                 о существовании которых стоит помнить
+                </span>
               </h2>
             </li>
-            <li class="nav-item">
+            <li class="nav-item list-st-none">
               <a href="#ikea-effect" class="nav-item-link text-decoration-none">
-                <p class="nav-number color-primary-dark mb-40">
+                <p class="nav-number color-primary-dark">
                   1
                 </p>
-                <h3 class="color-primary mb-16px">
+                <h3 class="mb-16px">
                   Эффект ИКЕА
                 </h3>
                 <p>Вы переоцениваете собственные решения, и, как следствие,
@@ -91,12 +100,12 @@
                 </p>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item list-st-none">
               <a href="#premature-optimization" class="nav-item-link text-decoration-none">
-                <p class="nav-number color-primary-dark mb-40">
+                <p class="nav-number color-primary-dark">
                   2
                 </p>
-                <h3 class="color-primary mb-16px">
+                <h3 class="mb-16px">
                   Преждевременная оптимизация
                 </h3>
                 <p>Вы оптимизируете что-то задолго до того,
@@ -104,12 +113,12 @@
                 </p>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item list-st-none">
               <a href="#distortion-of-novelty" class="nav-item-link text-decoration-none">
-                <p class="nav-number color-primary-dark mb-40">
+                <p class="nav-number color-primary-dark">
                   3
                 </p>
-                <h3 class="color-primary mb-16px">
+                <h3 class="mb-16px">
                   Искажение новизны
                 </h3>
                 <p>Вы даёте более высокую оценку тем событиям, которые
@@ -117,12 +126,12 @@
                 </p>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item list-st-none">
               <a href="#hyperbolic-depreciation" class="nav-item-link text-decoration-none">
-                <p class="nav-number color-primary-dark mb-40">
+                <p class="nav-number color-primary-dark">
                   4
                 </p>
-                <h3 class="color-primary mb-8px">
+                <h3 class="mb-8px">
                   Гиперболическое обесценивание
                 </h3>
                 <p>Вы гонитесь за немедленной маленькой выгодой
@@ -131,12 +140,12 @@
                 </p>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item list-st-none">
               <a href="#errors-in-planning" class="nav-item-link text-decoration-none">
-                <p class="nav-number color-primary-dark mb-40">
+                <p class="nav-number color-primary-dark">
                   5
                 </p>
-                <h3 class="color-primary mb-16px">
+                <h3 class="mb-16px">
                   Ошибка планирования
                 </h3>
                 <p>Неправильно рассчитывать время необходимое
@@ -144,10 +153,9 @@
                 </p>
               </a>
             </li>
-          </div>
         </ul>
       </nav>
-    </section>
+    </div>
 
     <section id="ikea-effect" class="bg-before">
       <div class="container">
@@ -156,15 +164,15 @@
             <img src="images/1.png" alt="Эффект ИКЕА" class="mb-100px">
           </div>
           <div class="column font-neucha">
-            <p class="lh-24px fz-24px color-dark-50">Когнитивные искажения</p>
-            <h2 class="mb-30">Эффект ИКЕА</h2>
+            <span class="fz-24px color-dark-50">Когнитивные искажения</span>
+            <h2 class="color-dark">Эффект ИКЕА</h2>
             <p class="lh-41px fz-34px">Вы переоцениваете
               собственные решения, и, как следствие,
               недооцениваете решения других.
             </p>
           </div>
         </div>
-        <h4 class="h4 mb-20px color-white bg-color-brown">
+        <h4 class="h4 color-white bg-color-brown">
           Как проявляется
         </h4>
         <div class="row">
@@ -191,10 +199,10 @@
       <div class="container">
         <div class="row">
           <div class="column font-neucha">
-            <p class="lh-24px fz-24px color-white-50">
+            <span class="fz-24px color-white-50">
               Когнитивные искажения
-            </p>
-            <h2 class="mb-30">Преждевременная оптимизация</h2>
+            </span>
+            <h2 class="color-white">Преждевременная оптимизация</h2>
             <p class="lh-41px fz-34px">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.
             </p>
           </div>
@@ -202,7 +210,7 @@
             <img src="images/2.png" alt="Человек и ноутбук с взлетающей ракетой" class="mb-100px">
           </div>
         </div>
-        <h4 class="h4 mb-20px color-brown bg-color-white">
+        <h4 class="h4 color-brown bg-color-white">
           Как проявляется
         </h4>
         <div class="row">
@@ -229,15 +237,15 @@
             <img src="images/3.png" alt="Человек, лампочка и мусорная корзина" class="mb-100px">
           </div>
           <div class="column font-neucha">
-            <p class="lh-24px fz-24px color-dark-50">Когнитивные искажения
-            </p>
-            <h2 class="mb-30">Искажение новизны</h2>
+            <span class="fz-24px color-dark-50">Когнитивные искажения
+            </span>
+            <h2 class="color-dark">Искажение новизны</h2>
             <p class="lh-41px fz-34px">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и
               недооцениваете более старые.
             </p>
           </div>
         </div>
-        <h4 class="h4 mb-20px color-white bg-color-brown">
+        <h4 class="h4 color-white bg-color-brown">
           Как проявляется
         </h4>
         <div class="row">
@@ -261,11 +269,11 @@
       <div class="container">
         <div class="row">
           <div class="column font-neucha">
-            <p class="lh-24px fz-24px color-white-50">
+            <span class="lh-1-2em fz-24px color-white-50">
               Когнитивные искажения
-            </p>
-            <h2 class="mb-30">Гиперболическое обесценивание</h2>
-            <p class="lh-41px fz-34px">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную,
+            </span>
+            <h2 class="color-white">Гиперболическое обесценивание</h2>
+            <p class="lh-41px fz-34px"> Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную,
               недоступную сейчас, но доступную в будущем.
             </p>
           </div>
@@ -273,7 +281,7 @@
             <img src="images/4.png" alt="Человек. Гора. Сундук с золотом" class="mb-100px">
           </div>
         </div>
-        <h4 class="h4 mb-20px color-brown bg-color-white">
+        <h4 class="h4 color-brown bg-color-white">
           Как проявляется
         </h4>
         <div class="row">
@@ -301,13 +309,15 @@
             <img src="images/5.png" alt="Человек. Блокнот. Часы" class="mb-100px">
           </div>
           <div class="column font-neucha">
-            <p class="lh-24px fz-24px color-dark-50">Когнитивные искажения</p>
-            <h2 class="mb-30">Ошибка планирования</h2>
+            <span class="fz-24px color-dark-50">
+              Когнитивные искажения
+            </span>
+            <h2 class="color-dark">Ошибка планирования</h2>
             <p class="lh-41px fz-34px">Неправильно рассчитывать время необходимое для завершения задачи.
             </p>
           </div>
         </div>
-        <h4 class="h4 mb-20px color-white bg-color-brown">
+        <h4 class="h4 color-white bg-color-brown">
           Как проявляется
         </h4>
         <div class="row">
@@ -320,6 +330,8 @@
           <div class="column">
             <p>
               Это отлично выражается в старом афоризме:
+            </p>
+            <p>
               Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90%
               времени разработки.
             </p>
@@ -335,19 +347,19 @@
     <div class="container min-height">
       <div class="row color-white bg-color-primary-dark">
         <div class="column">
-          <h3 class="p-55px">
+          <h3 class="p-55px color-white">
             Хотите узнать больше?
             <br>
             Подпишитесь на обновления
           </h3>
         </div>
-        <div class="column">
-          <form action="#">
+        <div class="column d-flex fd-column jc-center">
+          <form action="#" class="mt-38px">
             <label for="name" class="label">Электронная почта</label>
             <input id="name" class="input-footer" type="text" placeholder="Ваша электронная почта">
-            <button href="#" class="btn btn-send"></button>
+            <button class="btn btn-send"></button>
           </form>
-          <p class="fz-12px">
+          <p class="mt-5px fz-12px">
             Подписываясь, вы принимаете
             <a href="#" class="fz-12px link-privacy-policy">
               правила сервиса
@@ -356,13 +368,13 @@
         </div>
       </div>
       <div class="d-block ta-center mt-60px fz-14px">
-        <p>
+        <p class="mb-16px">
           © 2023
           <a href="https://github.com/maxdzyubak">
             Maxim Dzyubak
           </a>
         </p>
-        <p>
+        <p class="mb-16px">
           По материалам статьи
           <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" class="color-blue-2">
             Yash Ranadive Cognitive Biases in Programming
