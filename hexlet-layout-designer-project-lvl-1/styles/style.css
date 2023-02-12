@@ -63,6 +63,10 @@ img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
+header img {
+  filter: none;
+}
+
 nav ul > li:first-child {
   color: var(--color-white);
   background-color: var(--color-primary-dark);
@@ -86,9 +90,23 @@ nav ul {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.1;
+  opacity: 0.9;
   background-image: url("../images/background.png");
   background-color: var(--color-light);
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+.bg-before-brown::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image: url("../images/background.png");
+  background-color: var(--color-brown);
   background-repeat: no-repeat;
   background-size: cover;
   content: "";
@@ -230,7 +248,7 @@ nav ul {
 }
 
 .pb-35px {
-  padding-bottom: 35px;
+  padding-bottom: 32px;
 }
 
 .mb-100px {
