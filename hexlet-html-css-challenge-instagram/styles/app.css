@@ -1,0 +1,327 @@
+@font-face {
+  font-weight: normal;
+  font-family: Roboto;
+  src: url("../assets/fonts/Roboto-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  src: url("../assets/fonts/Roboto-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  src: url("../assets/fonts/Roboto-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Grand Hotel";
+  src: url("../assets/fonts/GrandHotel.woff2") format("woff2");
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  /* BEGIN (write your solution here) */
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
+  font-size: 32px;
+  font-family: "Grand Hotel", serif;
+
+  /* END */
+}
+
+img {
+  max-width: 100%;
+
+  vertical-align: middle;
+}
+
+button {
+  font-family: inherit;
+}
+
+.mobile {
+  width: 375px;
+
+  color: #262626;
+
+  background: #fff;
+
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}
+
+.mobile-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+
+  background: #f5f5f5;
+}
+
+.mobile-time {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+
+  background-color: unset;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+
+  cursor: pointer;
+}
+
+.icon-signal {
+  background-image: url("../assets/icons/signal.svg");
+}
+
+.icon-connection {
+  background-image: url("../assets/icons/wifi.svg");
+}
+
+.icon-battery {
+  background-image: url("../assets/icons/battery.svg");
+}
+
+.icon-camera {
+  background-image: url("../assets/icons/camera.svg");
+}
+
+.icon-igtv {
+  background-image: url("../assets/icons/igtv.svg");
+}
+
+.icon-messanger {
+  background-image: url("../assets/icons/messanger.svg");
+}
+
+.icon-more {
+  background-image: url("../assets/icons/more.svg");
+}
+
+.icon-save {
+  background-image: url("../assets/icons/save.svg");
+}
+
+.icon-like {
+  background-image: url("../assets/icons/like.svg");
+}
+
+.icon-comment {
+  background-image: url("../assets/icons/comment.svg");
+}
+
+.icon-home {
+  background-image: url("../assets/icons/home.svg");
+}
+
+.icon-search {
+  background-image: url("../assets/icons/search.svg");
+}
+
+.icon-add {
+  background-image: url("../assets/icons/add.svg");
+}
+
+/* BEGIN (write your solution here) */
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.mr-18 {
+  margin-right: 18px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+.col-end {
+  grid-column: -1;
+}
+
+.col-1 {
+  grid-column: span 1;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+[data-section="header"] {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  padding: 20px 15px;
+  background-color: #fafafa;
+}
+
+[data-section="stories"] {
+  display: flex;
+  padding: 10px;
+}
+
+.stories-item {
+  display: flex;
+  justify-content: center;
+  width: 65px;
+  background-color: white;
+  border-style: solid;
+  border-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.stories-text {
+  display: block;
+  width: 65px;
+  font-size: 12px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+[data-section="post"] {
+  font-size: 13px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+}
+
+.post-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-item {
+  display: flex;
+  align-items: center;
+}
+
+.post-item img {
+  width: 35px;
+  margin-right: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+.post-footer {
+  font-size: 13px;
+  border-bottom: 1px solid #c6c6c8;
+  padding: 20px 15px;
+}
+
+.post-footer-icons {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+[data-section="footer"] {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.avatar {
+  background-image: url("../assets/images/avatar_5.jpg");
+}
+
+/* END */
+
+.bold {
+  font-weight: bold;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #c6c6c8;
+}
+
+.border-top {
+  border-top: 1px solid #c6c6c8;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.w-15 {
+  width: 15px;
+}
+
+.justify-end {
+  justify-self: end;
+}
+
+.grid-column-end {
+  grid-column: -1;
+}
+
+.sr-only {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+
+  clip: rect(0, 0, 0, 0);
+}
+

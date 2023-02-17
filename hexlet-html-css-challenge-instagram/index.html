@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="styles/app.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram</title>
+</head>
+
+<body>
+  <div class="mobile">
+    <header class="mobile-header">
+      <div class="mr-5 w-15 icon icon-signal"></div>
+      <div class="mr-5 w-15 icon icon-connection"></div>
+      <div class="icon w-15 icon-battery"></div>
+      <div class="mobile-time ml-auto">15:23</div>
+    </header>
+    <main class="instagram-app">
+      <!-- BEGIN (write your solution here) -->
+
+     <div data-section="header">
+       <button class="col-1 icon icon-camera mr-15" data-aria-label="camera"></button>
+       <h1 class="col-2">
+         Instagram
+       </h1>
+      <div class="col-1 header-container ta-right">
+        <button class="icon icon-igtv mr-15" data-aria-label="igtv"></button>
+        <button class="icon icon-messanger" data-aria-label="messanger"></button>
+      </div>
+     </div>
+
+     <div class="border-top border-bottom" data-section="stories">
+       <h2 class="sr-only">Stories</h2>
+       <div>
+        <button class="stories-item mr-20 rounded" data-aria-label="stories">
+            <img src="assets/images/avatar_1.jpg" alt="Человек радуется" class="p-5 rounded">
+        </button>
+        <span class="stories-text mt-5 ta-center">Ваша история</span>
+       </div>
+       <div>
+        <button class="stories-item mr-20 rounded" data-aria-label="stories">
+            <img src="assets/images/avatar_2.jpg" alt="Человек отдыхает" class="p-5 rounded">
+        </button>
+        <span class="stories-text mt-5 ta-center">alex</span>
+       </div>
+       <div>
+        <button class="stories-item mr-20 rounded" data-aria-label="stories">
+            <img src="assets/images/avatar_3.jpg" alt="Человек на горе с флагом" class="p-5 rounded">
+        </button>
+        <span class="stories-text mt-5 ta-center">jediAcademy</span>
+       </div>
+       <div>
+        <button class="stories-item mr-20 rounded" data-aria-label="stories">
+            <img src="assets/images/avatar_4.jpg" alt="Человек у доски" class="p-5 rounded">
+        </button>
+        <span class="stories-text mt-5 ta-center">PythonCool</span>
+       </div>
+     </div>
+
+     <div data-section="post">
+       <h3 class="sr-only">Post</h3>
+       <section class="user">
+         <div class="post-item rounded">
+          <img src="assets/images/avatar_5.jpg" alt="Девушка думает за компьютером" class="rounded mr-10px">
+          <div class="post-text">
+            <span class="bold">hexlet_code</span>
+            <span>Miami</span>
+          </div>
+         </div>
+         <button class="icon icon-more border-none w-15" data-aria-label="more"></button>
+       </section>
+       <section class="img">
+         <img src="assets/images/post-image.jpg" alt="Рабочий стол: ноутбук, фотоаппарат, наушники, клавиатура">
+       </section>
+       <footer class="post-footer">
+         <div class="post-footer-icons mb-20">
+             <button class="icon icon-like mr-20 col-1" data-aria-label="like"></button>
+             <button class="icon icon-comment mr-20 col-1" data-aria-label="comment"></button>
+             <button class="icon icon-messanger col-1" data-aria-label="messanger"></button>
+           <button class="icon icon-save col-end" data-aria-label="save"></button>
+         </div>
+         <span class="bold">Нравится: 2 165</span>
+         <p>
+           <span class="bold">
+            hexlet_code
+           </span>
+           А скоро мы хотим открыть направление фотографии. Записывайтесь
+         </p>
+       </footer>
+     </div>
+
+     <footer data-section="footer">
+       <h4 class="sr-only">Footer</h4>
+       <button class="icon icon-home" data-aria-label="home"></button>
+       <button class="icon icon-search" data-aria-label="search"></button>
+       <button class="icon icon-add" data-aria-label="add"></button>
+       <button class="icon icon-like" data-aria-label="like"></button>
+       <button class="icon avatar rounded" data-aria-label="avatar"></button>
+     </footer>
+
+      <!-- END -->
+    </main>
+  </div>
+</body>
+
+</html>
+
