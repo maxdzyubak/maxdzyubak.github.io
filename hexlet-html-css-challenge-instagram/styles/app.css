@@ -57,10 +57,10 @@ h1 {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%!important;
+  height: auto!important;
 
-  vertical-align: middle;
+  vertical-align: middle!important;
 }
 
 button {
@@ -220,8 +220,8 @@ button {
 
 .stories-item {
   display: block;
-  width: 65px;
-  height: 65px;
+  width: 65px!important;
+  height: 65px!important;
   background-color: white;
   border-style: solid;
   border-color: #e0e0e0;
