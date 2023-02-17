@@ -1,25 +1,25 @@
 @font-face {
   font-weight: normal;
   font-family: Roboto;
-  src: url("../assets/fonts/Roboto-regular.woff2") format("woff2");
+  src: url("../assets/fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
-  src: url("../assets/fonts/Roboto-500.woff2") format("woff2");
+  src: url("../assets/fonts/Roboto-Medium.ttf");
 }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
-  src: url("../assets/fonts/Roboto-700.woff2") format("woff2");
+  src: url("../assets/fonts/Roboto-Bold.ttf");
 }
 
 @font-face {
   font-weight: 400;
   font-family: "Grand Hotel";
-  src: url("../assets/fonts/GrandHotel.woff2") format("woff2");
+  src: url("../assets/fonts/GrandHotel-Regular.ttf");
 }
 
 body {
@@ -38,7 +38,7 @@ h1 {
   text-align: center;
   font-weight: normal;
   font-size: 32px;
-  font-family: "Grand Hotel", serif;
+  font-family: "Grand Hotel", cursive;
 
   /* END */
 }
