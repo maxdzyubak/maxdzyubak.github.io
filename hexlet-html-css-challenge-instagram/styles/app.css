@@ -169,6 +169,10 @@ button {
   margin-top: 5px;
 }
 
+.p-5 {
+  padding: 5px;
+}
+
 .mr-20 {
   margin-right: 20px;
 }
