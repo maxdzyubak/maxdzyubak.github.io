@@ -172,10 +172,6 @@ button {
   padding: 5px;
 }
 
-.mr-18 {
-  margin-right: 18px;
-}
-
 .mr-20 {
   margin-right: 20px;
 }
@@ -233,6 +229,7 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   width: 65px;
+  height: 65px;
   background-color: white;
   border-style: solid;
   border-color: #e0e0e0;
