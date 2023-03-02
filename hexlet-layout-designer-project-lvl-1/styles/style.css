@@ -1,19 +1,19 @@
 @font-face {
   font-weight: 400;
   font-family: Neucha;
-  src: url("/src/fonts/Neucha/Neucha.ttf");
+  src: url("../fonts/Neucha/Neucha.ttf");
 }
 
 @font-face {
   font-weight: 400;
   font-family: OpenSans;
-  src: url("/src/fonts/Open_Sans/OpenSans-Regular.ttf");
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700;
   font-family: OpenSans;
-  src: url("/src/fonts/Open_Sans/OpenSans-Bold.ttf");
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf");
 }
 
 :root {
