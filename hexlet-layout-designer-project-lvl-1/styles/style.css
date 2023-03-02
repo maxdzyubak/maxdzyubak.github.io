@@ -1,3 +1,21 @@
+@font-face {
+  font-weight: 400;
+  font-family: Neucha;
+  src: url("/src/fonts/Neucha/Neucha.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: OpenSans;
+  src: url("/src/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: OpenSans;
+  src: url("/src/fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+
 :root {
   --color-white: #ffff;
   --color-light: #f5f4f0;
@@ -21,6 +39,7 @@ html {
 body {
   margin: 0;
   color: var(--color-dark);
+  overflow-x: hidden;
 }
 
 h1,
@@ -52,6 +71,10 @@ h3 {
 header,
 section {
   position: relative;
+}
+
+header {
+  background-color: var(--color-light);
 }
 
 a {
@@ -90,23 +113,8 @@ nav ul {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.9;
-  background-image: url("../images/background.png");
-  background-color: var(--color-light);
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: "";
-}
-
-.bg-before-brown::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   opacity: 0.1;
   background-image: url("../images/background.png");
-  background-color: var(--color-brown);
   background-repeat: no-repeat;
   background-size: cover;
   content: "";
