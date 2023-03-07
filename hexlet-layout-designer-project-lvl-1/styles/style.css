@@ -71,9 +71,6 @@ h3 {
 header,
 section {
   position: relative;
-}
-
-header {
   background-color: var(--color-light);
 }
 
